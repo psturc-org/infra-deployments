@@ -14,7 +14,7 @@ patchesJSON6902:
         value: build-service
 images:
   - name: quay.io/redhat-appstudio/build-service
-    newName: quay.io/redhat-appstudio/build-service
+    newName: quay.io/redhat-appstudio/pull-request-builds
     newTag: buildserv-2dcbde3b80153f7b27a45343a1277ca3cc524f39
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
