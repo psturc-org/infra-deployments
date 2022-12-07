@@ -2,5 +2,9 @@
 - op: add
   path: /spec/template/spec/containers/0/env
   value:
-  - name: IMAGE_TAG
-    value: ea07d3b388d61176b2c4c1b3da2da33b1c070a81
+    - name: IMAGE_TAG
+      value: ""
+    - name: JVM_BUILD_SERVICE_CACHE_IMAGE
+      value: quay.io/redhat-appstudio/pull-request-builds:jvmcache-6f3568c7df0bef4679fd28fbac973d69514430f2
+    - name: JVM_BUILD_SERVICE_REQPROCESSOR_IMAGE
+      value: quay.io/redhat-appstudio/pull-request-builds:jvmbuildrequestp-6f3568c7df0bef4679fd28fbac973d69514430f2
