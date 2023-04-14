@@ -10,7 +10,7 @@ images:
     newTag: 28a8f33e67cfcda61c82cf7d06c8820bc9d12305
 configMapGenerator:
   - literals:
-      - GITHUB_ORG=psturc-org
+      - GITHUB_ORG=redhat-appstudio-qe
     name: github-config
     behavior: replace
 namespace: application-service
