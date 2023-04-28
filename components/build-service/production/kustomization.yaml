@@ -10,3 +10,7 @@ patches:
       kind: ExternalSecret
       group: external-secrets.io
       version: v1beta1
+images:
+  - name: quay.io/redhat-appstudio/build-service
+    newName: quay.io/redhat-appstudio/build-service
+    newTag: 1a7effa37c3b93a85da6da0b922794b8c222dfd8
