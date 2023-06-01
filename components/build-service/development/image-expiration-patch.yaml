@@ -7,3 +7,6 @@ spec:
     spec:
       containers:
         - name: manager
+          env:
+            - name: BLA
+              value: "asdf"
