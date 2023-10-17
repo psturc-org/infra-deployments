@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/data/VAULTHOST",
-    "value": "https://vault-spi-vault.apps-crc.testing"
+    "value": "https://vault-spi-vault.apps.cluster-2lfg9.2lfg9.sandbox2585.opentlc.com"
   },
   {
     "op": "add",
