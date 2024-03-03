@@ -4,6 +4,7 @@ resources:
   - ../../base/host
   - ../../base/member
   - ../../base/all-clusters
+  - ../../base/quality-dashboard
 patches:
   - path: migration.patch.yaml
     target:
