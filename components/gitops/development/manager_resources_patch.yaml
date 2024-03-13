@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gitops-core-service-controller-manager
-  namespace: gitops
 spec:
   template:
     spec:
