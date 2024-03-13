@@ -9,3 +9,8 @@ images:
   - name: \${COMMON_IMAGE}
     newName: quay.io/redhat-appstudio/gitops-service
     newTag: 87e1f9acc67bf033d2159951ba6489f0836586ef
+
+namespace: gitops
+
+patches:
+  - path: ./manager_resources_patch.yaml
