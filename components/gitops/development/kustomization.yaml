@@ -13,4 +13,3 @@ images:
 patches:
   - path: core_service_resources_patch.yaml
   - path: service_agent_resources_patch.yaml
-  - path: gitops-service-argocd-repo-server.yaml
