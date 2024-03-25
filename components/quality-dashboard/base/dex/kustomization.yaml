@@ -1,5 +1,5 @@
 resources:
-- https://github.com/psturc/quality-dashboard/dex/deploy/base?ref=b65113048d9cf41f3ad5bad6a624af32dedb81c1
+- https://github.com/psturc/quality-dashboard/dex/deploy/base?ref=5d7ba5215d3c7f7da57b0625bcba4d09d55e1221
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
