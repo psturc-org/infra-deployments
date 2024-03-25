@@ -4,4 +4,4 @@
   value: https://github.com/psturc-org/infra-deployments.git
 - op: replace
   path: /spec/template/spec/source/targetRevision
-  value: preview-KONFLUX-2244
+  value: preview-preview-KONFLUX-2244
