@@ -5,4 +5,5 @@ resources:
   - ../../base/member
   - ../../base/all-clusters
   - ../../base/quality-dashboard
+  - ../../base/ci-helper-app
 namespace: konflux-public-staging

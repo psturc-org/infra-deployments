@@ -10,6 +10,7 @@ resources:
   - ../../base/ca-bundle
   - ../../base/repository-validator
   - ../../base/quality-dashboard
+  - ../../base/ci-helper-app
 
 patchesStrategicMerge:
   - delete-applications.yaml
@@ -135,3 +136,8 @@ patches:
       kind: ApplicationSet
       version: v1alpha1
       name: quality-dashboard
+  - path: development-overlay-patch.yaml
+    target:
+      kind: ApplicationSet
+      version: v1alpha1
+      name: ci-helper-app
