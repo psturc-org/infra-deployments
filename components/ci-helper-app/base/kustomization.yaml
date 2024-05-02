@@ -8,7 +8,7 @@ resources:
 
 images:
 - name: quay.io/konflux-ci/ci-helper-app
-  newName: quay.io/konflux-ci/ci-helper-app
-  newTag: bda888fd5b7a72f27b486429bde3ae7b361d6bd1
+  newName: quay.io/psturc/test-images
+  newTag: ci-helper-app-test
 
 namespace: ci-helper-app
