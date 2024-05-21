@@ -4,10 +4,11 @@ metadata:
   name: gitops-service-argocd
   namespace: gitops-service-argocd
 spec:
-  repo:
+  server:
     env:
       - name: ARGOCD_EXEC_TIMEOUT
         value: 5m
+  repo:
     resources:
       requests:
         cpu: 100m
