@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ArgoCD
+metadata:
+  name: openshift-gitops
+  namespace: openshift-gitops
+spec:
+  repo:
+    resources:
+      requests:
+        cpu: 100m
+        memory: 100Mi
+  server:
+    env:
+      - name: ARGOCD_EXEC_TIMEOUT
+        value: 5m
