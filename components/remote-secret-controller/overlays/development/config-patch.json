@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/data/VAULTHOST",
-    "value": "https://vault-spi-vault.apps-crc.testing"
+    "value": "https://vault-spi-vault.apps.cluster-5zxz9.dynamic.redhatworkshops.io"
   },
   {
     "op": "add",
