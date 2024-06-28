@@ -12,11 +12,17 @@ resources:
   - ../../base/keycloak
   - ../../base/ui
   - ../../base/eaas
+  - ../../base/quality-dashboard
 
 patchesStrategicMerge:
   - delete-applications.yaml
 namespace: openshift-gitops
 patches:
+  - path: development-overlay-patch.yaml
+    target:
+      kind: ApplicationSet
+      version: v1alpha1
+      name: quality-dashboard
   - path: development-overlay-patch.yaml
     target:
       kind: ApplicationSet
