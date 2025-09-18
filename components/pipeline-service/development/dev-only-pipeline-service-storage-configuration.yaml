@@ -98,6 +98,12 @@ spec:
         value: ALL
       - name: volumePermissions.enabled
         value: "false"
+      - name: volumePermissions.image.registry
+        value: docker.io
+      - name: volumePermissions.image.repository
+        value: bitnami/os-shell
+      - name: volumePermissions.image.digest
+        value: sha256:77e65e9d633ec1463f8bea185763aa7ef91e5ddbe0b60beb1b0b5d4da58882b6
       - name: shmVolume.enabled
         value: "false"
       releaseName: postgres
