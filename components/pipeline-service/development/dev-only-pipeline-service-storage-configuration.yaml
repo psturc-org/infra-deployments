@@ -60,8 +60,6 @@ spec:
     chart: postgresql
     helm:
       parameters:
-      - name: image.tag
-        value: 17.5.0
       - name: tls.enabled
         value: "true"
       - name: tls.certificatesSecret
@@ -98,17 +96,11 @@ spec:
         value: ALL
       - name: volumePermissions.enabled
         value: "false"
-      - name: volumePermissions.image.registry
-        value: docker.io
-      - name: volumePermissions.image.repository
-        value: bitnami/os-shell
-      - name: volumePermissions.image.digest
-        value: sha256:77e65e9d633ec1463f8bea185763aa7ef91e5ddbe0b60beb1b0b5d4da58882b6
       - name: shmVolume.enabled
         value: "false"
       releaseName: postgres
-    repoURL: https://charts.bitnami.com/bitnami
-    targetRevision: 14.0.5
+    repoURL: oci://registry-1.docker.io/bitnamichartssecure
+    targetRevision: 17.0.2  # Specify the version you 
   syncPolicy:
     automated:
       prune: true
