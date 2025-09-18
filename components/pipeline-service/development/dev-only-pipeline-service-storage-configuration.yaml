@@ -57,7 +57,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: .
+    path: postgresql
+    repoURL: oci://registry-1.docker.io/bitnamichartssecure
+    targetRevision: 17.0.2  # Specify the version you 
     helm:
       parameters:
       - name: tls.enabled
@@ -98,9 +100,7 @@ spec:
         value: "false"
       - name: shmVolume.enabled
         value: "false"
-      releaseName: postgres2
-    repoURL: oci://registry-1.docker.io/bitnamichartssecure/postgresql
-    targetRevision: 17.0.2  # Specify the version you 
+      releaseName: postgres
   syncPolicy:
     automated:
       prune: true
