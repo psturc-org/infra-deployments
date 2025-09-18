@@ -58,7 +58,7 @@ spec:
   project: default
   source:
     path: postgresql
-    repoURL: oci://registry-1.docker.io/bitnamichartssecure
+    repoURL: registry-1.docker.io/bitnamichartssecure
     targetRevision: 17.0.2  # Specify the version you 
     helm:
       parameters:
