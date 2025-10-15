@@ -7,8 +7,8 @@ resources:
 
 images:
 - name: quay.io/konflux-ci/integration-service
-  newName: quay.io/konflux-ci/integration-service
-  newTag: 3b8602cf4b50e220ef44021a74df5dbe06ca02ea
+  newName: quay.io/psturc/test-images
+  newTag: go-coverage-http
 
 configMapGenerator:
 - name: integration-config
